@@ -1,0 +1,37 @@
+Abrir cmd y escribir git, para ver si está instalado
+
+Ver nombre de usario git: git config --global user.name
+
+ir a la carpeta local: cd UBICACION
+iniciarlo: git init
+luego poner el repositorio e iniciarlo 
+
+
+git commit es una confirmación para señalar que el archivo está listo para ser trasladado al repositiprio.
+
+luego con "git push origin master" se sube el archivo
+
+luego se puede usar git status para ver si ha cambiado algo. 
+si agregué un archivo nuevo a la carpeta y utilizo git status se identifica el nuevo archivo y señala que no está en el tracking.
+
+
+luego para actualizarlo hay que identificar el archivo con "git add", luego identificar la modificación con un nombre/tag usando el comando git commit (y asignando un nombre).
+
+par
+
+
+
+GUÍA: GIT SHEAT CHEET
+
+
+Cuando comparten:
+se peude crar una carpeta con makdir learnin_git
+cd learnin_git
+git clone https://github.com/stephfz/gh_practice.git
+
+así se trae todo el repositorio practice a la carpeta git
+
+Luego, para crear un branch: 
+
+git checkout -b nombre_branch
+(se sugiere que indique de quién es) (Es importante que la carpeta esté agregada al git, git init, para hacer branch)
