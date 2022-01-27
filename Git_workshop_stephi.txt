@@ -35,3 +35,19 @@ Luego, para crear un branch:
 
 git checkout -b nombre_branch
 (se sugiere que indique de quién es) (Es importante que la carpeta esté agregada al git, git init, para hacer branch)
+
+
+Ahora para subirlo, primero se chequea con git status
+
+alonso_brannch
+RESUMEN
+Para subir un cambio:
+git status
+git add NOMBRE_ARCHIVO
+git commit -m "NOMBRE_DEL_COMMIT"
+git push origin NOMBRE_BRANCH
+
+Para descargar el cambio:
+
+git checkout sfz
+git pull origin sfz
