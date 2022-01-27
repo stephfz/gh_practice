@@ -39,7 +39,7 @@ git checkout -b nombre_branch
 
 Ahora para subirlo, primero se chequea con git status
 
-alonso_brannch
+
 RESUMEN
 Para subir un cambio:
 git status
